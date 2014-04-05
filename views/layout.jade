@@ -1,0 +1,37 @@
+!!! 5
+html(lang='en')
+  head
+    meta(http-equiv='Content-type' content='text/html; charset=utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0')
+    meta(name='description' content='_.slugify(appName)')
+    meta(name='apple-mobile-web-app-capable' content='yes')
+    meta(name='apple-mobile-web-app-status-bar-style' content='black')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    title= title
+  
+    // Stylesheets
+    link(href='/assets/stylesheets/ss-standard.css' media='screen,projection,print' rel='stylesheet' type='text/css')
+    link(href='/assets/stylesheets/screen.css' media='screen,projection,print' rel='stylesheet' type='text/css')
+    link(href='/assets/stylesheets/print.css' media='print' rel='stylesheet' type='text/css')
+    
+    link(href='/assets/stylesheets/base.css' media='screen,projection,print' rel='stylesheet' type='text/css')
+    
+    // Linked images 
+    link(href='/assets/images/apple-touch-icon-precomposed.png' rel='apple-touch-icon')
+    link(href='/assets/images/favicon.ico' rel='shortcut icon' type='image/x-icon')
+    
+    //if IE
+      link(href='/assets/stylesheets/ie.css' media='screen,projection,print' rel='stylesheet' type='text/css')
+      
+    //if lt IE 9
+      script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
+  
+  body
+    block content
+    
+    // Static JavaScript
+    script(src='/assets/js/jquery-v1.10.2.min.js' type='text/javascript' charset='utf-8')
+    script(src='/assets/js/handlebars-v1.1.2.js' type='text/javascript' charset='utf-8')
+    script(src='/assets/js/ember-v1.2.0.js' type='text/javascript' charset='utf-8')
+    script(src='/assets/js/ember-data-v1.0.0.js' type='text/javascript' charset='utf-8')
+    script(src='/assets/js/application.js' type='text/javascript' charset='utf-8')
